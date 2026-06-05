@@ -1,0 +1,20 @@
+{
+  "name": "armys-plugins",
+  "owner": {
+    "name": "Army",
+    "email": "armygep5@gmail.com"
+  },
+  "metadata": {
+    "description": "Army's Claude plugin marketplace.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "github-bridge",
+      "source": "./",
+      "description": "Live, OAuth-connected GitHub access for Claude Cowork and Claude Code: full read/write across repos, files, branches, pull requests, issues, Actions, and history, plus workflow skills that bridge local Claude Code projects with GitHub.",
+      "version": "0.1.0",
+      "keywords": ["github", "git", "pull-request", "mcp", "oauth", "code-review"]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+# Secrets — never commit tokens
+.env
+*.pat
+*.token
+secrets/
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+# Stray temp files
+*.tmp
+.mcp.json.tmp
+# Build artifacts
+*.plugin
+dist/

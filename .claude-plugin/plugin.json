@@ -1,0 +1,24 @@
+{
+  "name": "github-bridge",
+  "version": "0.1.0",
+  "description": "Live, OAuth-connected GitHub access for Claude Cowork and Claude Code. Full read/write across repos, files, branches, pull requests, issues, Actions, and commit history, plus workflow skills that bridge local Claude Code projects with GitHub.",
+  "author": {
+    "name": "Army",
+    "email": "armygep5@gmail.com"
+  },
+  "homepage": "https://github.com/Army161/github-bridge",
+  "repository": "https://github.com/Army161/github-bridge",
+  "license": "MIT",
+  "keywords": [
+    "github",
+    "git",
+    "pull-request",
+    "mcp",
+    "oauth",
+    "repos",
+    "ci",
+    "code-review",
+    "cowork",
+    "claude-code"
+  ]
+}
