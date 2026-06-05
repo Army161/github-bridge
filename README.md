@@ -74,3 +74,5 @@ Once connected, just ask in natural language:
 ## License
 
 MIT — see `LICENSE`.
+
+<!-- smoke-test: github-bridge live connection verified -->
