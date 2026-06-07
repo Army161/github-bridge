@@ -3,8 +3,8 @@
     "github": {
       "type": "http",
       "url": "https://api.githubcopilot.com/mcp/",
-      "oauth": {
-        "scopes": "repo read:org read:user workflow"
+      "headers": {
+        "Authorization": "Bearer ${GITHUB_PAT}"
       }
     }
   }
