@@ -9,3 +9,7 @@ All notable changes to `github-bridge`. Format: Keep a Changelog; SemVer.
 - Safety confirmation gates and least-privilege defaults.
 - Full documentation set (PLAN, BUILD, ARCHITECTURE, MEMORY, SECURITY, ROADMAP, CONTRIBUTING, MARKETING, FILES).
 - Marketplace descriptor for distribution.
+
+## [0.1.1] - 2026-06-07
+### Changed
+- `.mcp.json` switched to environment-variable auth (`Authorization: Bearer ${GITHUB_PAT}`) for reliable, automatic connection on Claude Desktop/Cowork. OAuth remains documented in `skills/github-workflows/references/auth-setup.md`.
